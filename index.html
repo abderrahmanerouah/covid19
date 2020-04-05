@@ -57,7 +57,43 @@
       </div>
     </div>
   </section>
+  <!-- end symptomes -->
+  <!-- footer -->
+  <footer class="footer">
+    <!-- footer recommandation -->
+    <div class="footer__recommmandation">
+    </div>
+    <!-- end footer recommandation -->
+    <!-- footer test -->
+    <div class="footer__test">
+      <div class="footer__test__title">Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptômes ?
+      </div>
+      <div class="footer__test__img">
+        <img src="Design/Assets/png/1f637.png" alt="émoticone malade" title="émoticone malade">
+      </div>
+      <div class="footer__test__btn">
+        <a href="#">Demarer le test
+        </a></div>
+    </div>
+    <!-- end footer test -->
+    <!-- footer contact -->
+    <div class="footer__contacte">
+    </div>
+    <!-- end footer contact -->
+    <div class="footer__contacte__color"></div>
+  </footer>
+  <script src="src/js/general.js"></script>
 </body>
+<script>
+  $(document).ready(function () {
+    $('.footer__recommmandation').load("/footer_.html");
+  });
+</script>
+<script>
+  $(document).ready(function () {
+    $('.footer__contacte').load("/footer__.html");
+  });
+</script>
 <script>
   $(document).ready(function () {
     $('header').load("/header.html");
