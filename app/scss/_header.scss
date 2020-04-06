@@ -7,7 +7,8 @@
       width: 5em;
     }
   }
-  
+  .traduire{position: absolute;
+   right:14px;}
 
   nav {
 
@@ -21,12 +22,13 @@
   }
 
   &__menu {
-    display: flex;
     a {
-      margin-right: 3em;
+      margin-right: 3.4em;
       color: $text_color;
       font-weight: 700;
       font-size: 1.3em;
+      overflow: auto;
+
       
 
     }
