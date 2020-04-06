@@ -6,13 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/css/style.css">
   <link rel="stylesheet" href="src/css/normalize.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <title>Document</title>
 </head>
 
 <body>
   <!-- HEADER -->
   <header class="header">
+    <nav>
+      <div class="header__logo"> <img src="Design/Assets/png/logo__sante-17@2x.png" alt=" Ministère de la Santé"
+          title="Ministère de la Santé"></div>
+      <div class="header__menu" id="active">
+        <a href="" class="conseil">Conseil</a>
+        <a href="index.html" class="active">Accueil</a>
+        <a href="#"><img src="Design/Assets/png/language_switch.png" alt="" class="traduire"> </a>
+      </div>
+    </nav>
+    <div class="header__text">
+      <h3 class="header__title">LA DERNIÈRE INFO MÉDICALE </h3>
+      <p class="header__parag">La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur
+        d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol. <br> N'arrêtez pas votre traitement
+        !
+        Consultez
+        votre médecin ou votre pharmacien. </p>
+    </div>
+    <nav>
   </header>
   <!-- end Header -->
   <!-- main -->
@@ -62,6 +79,25 @@
   <footer class="footer">
     <!-- footer recommandation -->
     <div class="footer__recommmandation">
+      <h2 class="footer__recommmandation__title">Recommandations officielles</h2>
+<div class="footer__recommmandation__parts">
+  <div class="footer__recommmandation__part1">
+    <p class="footer__recommmandation__parag  footer__recommmandation__parag--color">Si vous pensez être malade, </p>
+    <p class="footer__recommmandation__parag">évitez les endroits publics. </p>
+    <p class="footer__recommmandation__parag">Ne rendez pas visite aux personnes fragiles. </p>
+    <p class="footer__recommmandation__parag">Évitez de sortir de chez vous. </p>
+    <p class="footer__recommmandation__parag">Respectez les mesures barrière (lavage de main, masque).</p>
+    <p class="footer__recommmandation__parag">Surveillez vos symptômes, l’évolution de votre température <br>
+      corporelle et
+      recherchez un avis médical. </p>
+
+  </div>
+  <div class="footer__recommmandation__part2">
+    <p class="footer__recommmandation__appel footer__recommmandation__size">Apple Gratuit</p>
+    <p class="footer__recommmandation__numero footer__recommmandation__size">080 100 47 47</p>
+    <a href="www.sante.gov.ma" class="footer__recommmandation__site footer__recommmandation__size">www.sante.gov.ma</a>
+  </div>
+</div>
     </div>
     <!-- end footer recommandation -->
     <!-- footer test -->
@@ -78,25 +114,38 @@
     <!-- end footer test -->
     <!-- footer contact -->
     <div class="footer__contacte">
+      <div class="footer__contacte__logo">
+        <a href=""><img src="Design/Assets/png/logo__sante-17@2x.png" alt=""></a>
+      </div>
+      <div class="footer__contacte__parts">
+        <div class="footer__contacte__part1">
+          <a href=""><img src="/Design/Assets/png/language_switch.png" alt=""></a>
+          <a class="active" href="#">Accueil</a>
+          <a href="#">Conseil</a>
+        </div>
+        <div class="footer__contacte__part2">
+          <p class="footer__contacte__utiles">Contacts utiles
+          </p>
+          <p class="footer__contacte__aide">Chiffre économique "Alo épidémie vigilance"
+          </p>
+          <p class="footer__contacte__num">080 100 47 47
+          </p>
+          <p class="footer__contacte__aide">Aide médicale urgente
+          </p>
+          <p class="footer__contacte__num">114
+          </p>
+        </div>
+        <div class="footer__contacte__part3">
+          Algorithme d'orientation mis a jour sur les recommandations en vigueur
+          au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical,
+          il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance
+          Digitale contre le COVID-19 : @maladiecovid1
+        </div>
+      </div>
     </div>
     <!-- end footer contact -->
     <div class="footer__contacte__color"></div>
   </footer>
   <script src="src/js/general.js"></script>
 </body>
-<script>
-  $(document).ready(function () {
-    $('.footer__recommmandation').load("/footer_.html");
-  });
-</script>
-<script>
-  $(document).ready(function () {
-    $('.footer__contacte').load("/footer__.html");
-  });
-</script>
-<script>
-  $(document).ready(function () {
-    $('header').load("/header.html");
-  });
-</script>
 </html>
