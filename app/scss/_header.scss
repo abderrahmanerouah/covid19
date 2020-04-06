@@ -21,21 +21,19 @@
   }
 
   &__menu {
+    display: flex;
     a {
       margin-right: 3em;
       color: $text_color;
       font-weight: 700;
       font-size: 1.3em;
+      
 
     }
     .conseil {
       color: black;
     }
-    .traduire{
-      width: 89px;
-      
-    }
-  }
+     }
 
   &__text {
     background: url("../../Design/Assets/png/En\ chiffres-24.png") no-repeat center/cover;
