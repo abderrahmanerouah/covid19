@@ -1,4 +1,4 @@
-@import 'variable';
+@import "variable";
 
 //// header/////
 .header {
@@ -7,18 +7,21 @@
       width: 5em;
     }
   }
-  .traduire{position: absolute;
-   right:14px;}
+  .traduire {
+    position: absolute;
+    right: 14px;
+  }
 
   nav {
-
     padding: 0em 2em;
-    background: url("../../Design/Assets/png/Navigation Bar 5.jpg") no-repeat center/cover;
+    background: url("../../Design/Assets/png/Navigation Bar 5.jpg") no-repeat
+      center/cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
   }
 
   &__menu {
@@ -28,25 +31,23 @@
       font-weight: 700;
       font-size: 1.3em;
       overflow: auto;
-
-      
-
     }
     .conseil {
       color: black;
     }
-     }
+  }
 
   &__text {
-    background: url("../../Design/Assets/png/En\ chiffres-24.png") no-repeat center/cover;
+    background: url("../../Design/Assets/png/En\ chiffres-24.png") no-repeat
+      center/cover;
     text-align: center;
     line-height: 2;
+    margin-top: 6.6em;
   }
 
   &__title {
     font-weight: 700;
     font-size: 1.3em;
-
   }
 
   &__parag {
