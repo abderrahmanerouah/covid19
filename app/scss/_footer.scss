@@ -1,6 +1,6 @@
 //// footer_recommandation ////////////////////////////////////////////////
 .footer {
-    &__recommmandation {
+    &__reco {
       background-color: $btn_color;
       padding: 3em 6em 3em 6em;
   
@@ -130,15 +130,20 @@
   
         a {
           font-size: 2em;
-          color: black;
+          color: $text_color;
           line-height: 2.7;
           text-align: center;
-  
           img {
             width: 7em;
           }
         }
-        .active {color: $text_color;}
+        &--conseil2 {
+          color: black !important;
+        }
+        &--accueil2{
+          color: black !important;
+        }
+      
       }
   
       &__part2 {
@@ -180,3 +185,4 @@
       }
     }
   }
+  
