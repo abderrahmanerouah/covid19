@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+    integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+
+<body>
+ <!-- HEADER -->
+ <header class="header">
+  <nav>
+    <div class="header__logo"> <img src="Design/Assets/png/logo__sante-17@2x.png" alt=" Ministère de la Santé"></div>
+    <div class="header__menu">
+      <a href="conseils.html" class="conseil1">Conseil</a>
+      <a href="index.html" class="active">Accueil</a>
+      <a href="#"><img class="traduire" src="Design/Assets/png/language_switch.png" alt=""></a>
+    </div>
+  </nav>
+  <div class="header__text">
+    <h3 class="header__title">LA DERNIÈRE INFO MÉDICALE </h3>
+    <p class="header__parag">La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur
+      d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol. <br> N'arrêtez pas votre traitement
+      !
+      Consultez
+      votre médecin ou votre pharmacien. </p>
+  </div>
+  <nav>
+</header>
+<!-- end Header -->
+  <section class="stepper">
+    <h1 class="select">Informations</h1>
+    <h1>Questionnaire</h1>
+    <h1>Résultats</h1>
+  </section>
+  <section class="Préambule">
+
+    <h1>Préambule</h1>
+
+    <p>L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour contribuer à
+      fluidifier la prise en charge des personnes par les services d’urgences pendant l’épidémie de Coronavirus
+      COVID-19. L’exhaustivité, l’exactitude, le caractère à jour des informations et contenus mis à disposition
+      dans cette application, ou leur adéquation à des finalités particulières, ne sont pas garantis.</p>
+
+    <hr>
+    <p>Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de précision.
+      Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.
+    </p>
+
+  </section>
+
+  <button class="start-btn">Demarer le test</button>
+  <!------------------------------------- end  Préambule  section  ------------------------>
+
+  <section class="questionnaire">
+
+    <div class="progress">
+      <h3><span class="question-number">1</span> /22</h3>
+      <div class="progress__bar">
+        <div class="bar"></div>
+      </div>
+    </div>
+
+    <div class="animation">
+      <h1 class="question"></h1>
+      <div class="answer-inputs">
+      </div>
+      <div class="btn-container">
+        <button class="previous">Précédent</button>
+        <button class="next ">Suivant</button>
+      </div>
+
+
+    </div>
+
+  </section>
+  <footer class="footer">
+    <!-- footer recommandation -->
+    <div class="footer__reco">
+      <h2 class="footer__reco__title">Recommandations officielles</h2>
+<div class="footer__reco__parts">
+  <div class="footer__reco__part1">
+    <p class="footer__reco__parag  footer__reco__parag--color">Si vous pensez être malade, </p>
+    <p class="footer__reco__parag">évitez les endroits publics. </p>
+    <p class="footer__reco__parag">Ne rendez pas visite aux personnes fragiles. </p>
+    <p class="footer__reco__parag">Évitez de sortir de chez vous. </p>
+    <p class="footer__reco__parag">Respectez les mesures barrière (lavage de main, masque).</p>
+    <p class="footer__reco__parag">Surveillez vos symptômes, l’évolution de votre température <br>
+      corporelle et
+      recherchez un avis médical. </p>
+
+  </div>
+  <div class="footer__reco__part2">
+    <p class="footer__reco__appel footer__reco__size">Appel Gratuit</p>
+    <p class="footer__reco__numero footer__reco__size">080 100 47 47</p>
+    <a href="www.sante.gov.ma" class="footer__reco__site footer__reco__size">www.sante.gov.ma</a>
+  </div>
+</div>
+    </div>
+    <!-- end footer recommandation -->
+     <!-- footer contact -->
+     <div class="footer__contacte">
+      <div class="footer__contacte__logo">
+        <a href=""><img src="Design/Assets/png/logo__sante-17@2x.png" alt=""></a>
+      </div>
+      <div class="footer__contacte__parts">
+        <div class="footer__contacte__part1">
+          <a href=""><img src="Design/Assets/png/language_switch.png" alt=""></a>
+          <a href="index.html">Accueil</a>
+          <a class="footer__contacte__part1--conseil2" href="conseils.html">Conseil</a>
+        </div>
+        <div class="footer__contacte__part2">
+          <p class="footer__contacte__utiles">Contacts utiles
+          </p>
+          <p class="footer__contacte__aide">Chiffre économique "Alo épidémie vigilance"
+          </p>
+          <p class="footer__contacte__num">080 100 47 47
+          </p>
+          <p class="footer__contacte__aide">Aide médicale urgente
+          </p>
+          <p class="footer__contacte__num">114
+          </p>
+        </div>
+        <div class="footer__contacte__part3">
+          Algorithme d'orientation mis a jour sur les recommandations en vigueur
+          au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical,
+          il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance
+          Digitale contre le COVID-19 : @maladiecovid1
+        </div>
+      </div>
+    </div>
+    <!-- end footer contact -->
+  </footer>
+
+
+
+
+  
+    <script src="src/js/general.js"></script>
+</body>
+
+</html>
