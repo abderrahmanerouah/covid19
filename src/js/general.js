@@ -51,17 +51,17 @@ suivant.addEventListener("click", (e) => {
 precedent.addEventListener("click", (e) => {
   afficheResultat.classList.add("affiche");
   suivant.classList.remove("affiche");
-  if (conter > 0) { 
+  if (conter > 0) {
     conter--;
-    value--;
+    valeur--;
   }
   if (conter == 0) {
     precedent.classList.add("affiche");
   }
   question.innerHTML = questions[conter];
   inputs = document.querySelectorAll(".answer-inputs input");
-  progressBar(conter, valeur);
   recuperation();
+  progressBar(conter, valeur);
   e.preventDefault();
 });
 ////// recuperation des resultat ///////////////////
